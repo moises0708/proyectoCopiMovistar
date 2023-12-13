@@ -1,0 +1,302 @@
+
+
+
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 0;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    background-image:url(https://www.movistar.com.ve/images/fondo_home_navidad_2023.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navBar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0px 1px 10px 0px black ;
+}
+
+.navBarSuperior{
+    display: flex;
+    background-color: #0B2739;
+    gap: 15px;
+    padding: 10px 100px;
+    width: 100%;
+}
+
+.navBarSuperior .anclas {
+    color: #fff;
+    font-size: 16px;
+}
+.navBarSuperior .anclas:hover {
+    color: #019DF4;
+}
+.navBarSuperior .anclaNegrita {
+    font-weight: bold;
+}
+
+
+.navBarInferior{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    background-image:url(https://www.movistar.com.ve/images/fondo_home_header_navidad_2023.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logoMovistarImg{
+    width: 70px;
+}
+
+.serviciosBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+.serviciosBtn:hover{
+    color: rgba(0, 0, 0, 0.452);
+}
+.destacarBtn:hover{
+    color: #019DF4;
+}
+
+.botonera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.botonEsim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px;
+    background-color: #5BC500;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.botonTienda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 50px;
+    color: #000;
+    font-weight: 700;
+}
+
+.botonMM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px;
+    background-color: #019DF4;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.botonMM:hover,
+.botonTienda:hover,
+.botonEsim:hover{
+    box-shadow: 0px 1px 10px 0px black ;
+}
+.image {
+    margin-top: 125px;
+    width: 100vw;
+}
+
+.content {
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+ .styles {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+ }
+
+ .botones {
+    padding: 8px 15px;
+    background-color: #019DF4;
+    color: #fff;
+    border-radius: 20px;
+    height: 70px;
+ }
+
+ .botones1 {
+    padding: 8px 15px;
+    background-color: #019DF4;
+    color: #fff;
+    border-radius: 20px;
+    height: 70px;
+ }
+
+ .botones2 {
+    padding: 8px 15px;
+    background-color: #019DF4;
+    color: #fff;
+    border-radius: 20px;
+    height: 70px;
+}
+
+.boton {
+    width: 150px;
+    background-color: #019DF4;
+    color: #fff;
+    border-radius: 50px;
+    height: 40px
+    
+
+}
+
+.content1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.planes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.planazul1 {
+    background-color: #019DF4;
+    color: #fff;
+    border-radius: 20px;
+    height: 250px;
+    padding: 100px 50px;
+    width: 315px;
+}
+
+.planblanco1 {
+    background-color: #fff;
+    color: #86888F;
+    border-radius: 20px;
+    height: 250px;
+    padding: 100px 50px;
+    border: 2px solid #000;
+    width: 1000px;
+}
+
+.planes2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.planazul2 {
+    background-color: #019DF4;
+    color: #fff;
+    border-radius: 20px;
+    height: 250px;
+    padding: 100px 50px;
+}
+
+.planblanco2 {
+    background-color: #fff;
+    color: #86888F;
+    border-radius: 20px;
+    height: 250px;
+    padding: 100px 50px;
+    border: 2px solid #000;
+    width: 1000px;
+}
+
+.partegris {
+    background-color: #0B2739;
+    color: #fff;
+    border-radius: 50px;
+    height: 40px;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+
+
+.partegris1 {
+    background-color: #0B2739;
+    color: #fff;
+    border-radius: 50px;
+    height: 40px;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px ;
+}
+
+.ultimo {
+    background-color: #019DF4;
+    color: white;
+    border-radius: 20px;
+    height: 150px;
+    width: 1400px;
+    padding: 20px;
+}
+
+.ultimo1 {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 200px;
+}
+
+
+
+.ultimo2 {
+    background-color: #5BC500;
+    color:#000;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 40px;
+    width: 115px;
+    padding: 10px;
+    margin-left: 225px;
+
+}
+.partegris:hover
+.partegris1:hover
+.ultimo2:hover {
+    box-shadow: 0px 1px 10px 0px black ;
+}

@@ -1,0 +1,132 @@
+/*mi primer comentario*/
+
+:root {
+    --main_color:blueviolet;
+    --second_color: yellow;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 20px 32px;
+}
+
+.subtitulo, .parrafo {
+    color: var(--main_color);
+}
+
+#container {
+    background-color: brown;
+}
+
+.subtitulo{
+    color: chocolate;
+}
+
+ul li h2{
+    color: chartreuse;
+}
+
+#prueba{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    font-weight:900;
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+    text-transform: uppercase;
+    /*espacio de letra*/
+    letter-spacing: 10px;
+    /*espacio de palabra*/
+    word-spacing: 20px;
+    /*espacio de linea*/
+    line-height: 100px;
+    /*trabajar con borde*/
+    /*border-color: blue;
+    border-style: groove;
+    border-width: 30px;*/
+    /*atajo para trbajar con bordes*/
+    border:  groove 30px seagreen ;
+    border-radius:100%;
+    /*
+    margen:es la distancia de un elemnto con respecto a otro
+    */
+    margin: 100px 50px 0 200px;
+    /*
+    padding:es la distancia del borde de la caja
+    con respecto a su contenido
+    */
+    padding: 200px;
+    /*anchura y altura minima*/
+    min-width: 100px;
+    min-height: 100px;
+    /*anchura y altura maxima*/
+    max-width: 700px;
+    max-height: 700px;
+    /*
+    existen diversas formas de colocar colores
+    en css una de ellas es mencionar el color
+    en idiomas ingles pero tambien puedes usar 
+    codigo hexadecimal,
+    */
+    /*
+    color: #4734GF;
+    color: #feabd7d7;
+    color: rgb(0, 0, 0);
+    color: rbga(255, 50, 20, 0, 50)
+    color: hsl(0, 100%, 50%)
+    */
+    opacity: 10%;
+    /*REM hace referencia a un tamaño por default que 
+    el navegador tiene esta medida es relativa
+    pues el tamaño por default puede cambiar cambiar
+    segun el ancho del navegador decir 3rem es decir
+    3 vece ese tamaño por default
+    font-size: 3rem;
+    EM hace referncia al tamaño por default del
+    lemento HTML en si
+    font-size: 3em;
+    */
+    /*
+    vh = viewport height (altura del navegador
+    vw = vierport width (anchura del navegador)
+    */
+    width: 100vh;
+    height: 100vw;
+    /*
+    display: none;
+    */
+    display: flex;
+}
+
+    /*
+    el !important hace que ese estilo tenga la maxima
+    prioridad
+    h2{
+        color: red important;
+    }
+    */
+
+    /*
+    pseudo clases
+    manejan los estados de un elemento
+    */
+    #prueba:hover{
+        background-color: aqua;
+        padding: 0;
+    }
+
+    a:visited{
+        color: brown;
+    }
+
+    a:link{
+        color: aquamarine;
+    }
+
+
